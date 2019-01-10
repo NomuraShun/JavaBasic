@@ -18,8 +18,9 @@ public class PTra02_06 {
 		// ※プログラムは何行書いても良いです
 
 
+
 		// ここから下は修正しないでください
-		System.out.println("x:" + x);	// 「x:50」が出力される
-		System.out.println("y:" + y);	// 「y:10」が出力される
+		System.out.println("y:" + x);	// 「x:50」が出力される
+		System.out.println("x:" + y);	// 「y:10」が出力される
 	}
 }
