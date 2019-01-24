@@ -42,8 +42,18 @@ public class PTra10_05 {
 		 * ※n：runメソッドを実行した回数, xは残りのガソリンの数です
 		 */
 
-		car.run();
-		int n = (distance - car.gasoline);
+
+		int x = car.run();
+		int n = distance- x;
+		
+		
+		if(car.gasoline < 0) {
+			System.out.println("目的地に到達できませんでした");
+		}else {
+			System.out.println("目的地にまで" + n + "時間かかりました。残りのガソリンは、"+ x +"リットルです");
+		}
+		
+		
 
 
 
